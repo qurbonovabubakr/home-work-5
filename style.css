@@ -350,3 +350,161 @@ body {
     border-bottom: 3px solid #ff211d;
     padding-bottom: 5px;
 }
+.kfc-offers-section {
+    width: 100%;
+    background: #fbf0ea;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    clear: both;
+}
+
+.offers-container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.offer-row-top {
+    width: 1200px;
+    height: 180px;
+    margin-bottom: 30px;
+}
+
+.offer-row-bottom {
+    width: 1200px;
+    height: 220px;
+}
+
+.card-small {
+    background: white;
+    width: 360px;
+    height: 180px;
+    border-radius: 15px;
+    float: left;
+    margin-right: 60px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    box-sizing: border-box;
+}
+
+.card-small:last-child {
+    margin-right: 0px;
+}
+
+.card-red {
+    background: #ff211d;
+}
+
+.card-info {
+    width: 170px;
+    float: left;
+    margin-top: 10px;
+}
+
+.card-title {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 8px;
+}
+
+.text-white {
+    color: white;
+}
+
+.card-sub {
+    font-family: sans-serif;
+    font-size: 11px;
+    color: #777777;
+    margin-bottom: 20px;
+}
+
+.text-yellow {
+    color: #ffbc00;
+}
+
+.card-price {
+    background: #ff211d;
+    color: white;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    display: inline-block;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+}
+
+.price-yellow {
+    background: #ffbc00;
+    color: #000000;
+}
+
+.card-img-box {
+    width: 140px;
+    float: right;
+}
+
+.card-img-box img {
+    height: 130px;
+    width: auto;
+    display: block;
+}
+
+.card-large {
+    background: white;
+    width: 570px;
+    height: 220px;
+    border-radius: 15px;
+    float: left;
+    margin-right: 60px;
+    padding: 25px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+    box-sizing: border-box;
+}
+
+.card-large:last-child {
+    margin-right: 0px;
+}
+
+.card-info-large {
+    width: 250px;
+    float: left;
+    margin-top: 15px;
+}
+
+.card-title-large {
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 8px;
+}
+
+.card-sub-large {
+    font-family: sans-serif;
+    font-size: 11px;
+    color: #777777;
+    margin-bottom: 20px;
+}
+
+.card-price-large {
+    color: #ff211d;
+    font-family: sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.card-img-box-large {
+    width: 250px;
+    float: right;
+}
+
+.card-img-box-large img {
+    height: 160px;
+    width: auto;
+    display: block;
+}
