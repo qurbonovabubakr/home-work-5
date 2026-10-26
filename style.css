@@ -508,3 +508,138 @@ body {
     width: auto;
     display: block;
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fcebe0;
+}
+
+.header {
+  background-color: #ffb83d;
+  height: 250px;
+}
+
+.header-container {
+  width: 900px;
+  height: 250px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.phones {
+  width: 400px;
+  height: 250px;
+  position: relative;
+}
+
+.phone1 {
+  width: 160px;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  z-index: 2;
+}
+
+.phone2 {
+  width: 120px;
+  position: absolute;
+  top: 30px;
+  left: 150px;
+  z-index: 1;
+}
+
+.header-text {
+  width: 450px;
+}
+
+.header-text h1 {
+  color: white;
+  font-size: 28px;
+  margin-bottom: 25px;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.store-img {
+  height: 40px;
+}
+
+.reviews {
+  padding: 100px 0 80px 0;
+}
+
+.reviews-container {
+  width: 700px;
+  margin: 0 auto;
+  display: flex;
+  gap: 20px;
+}
+
+.left-column {
+  width: 340px;
+}
+
+.right-column {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.title-box h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.title-box p {
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.card {
+  position: relative;
+  background-color: white;
+  padding: 25px 25px 25px 55px;
+  border-radius: 6px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card::before {
+  content: "\201C";
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  font-size: 40px;
+  font-family: Georgia, serif;
+  font-weight: bold;
+  color: #a8dff0;
+  line-height: 1;
+}
+
+.card-floyd {
+  margin-top: 30px;
+}
+
+.card-text {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+.name {
+  font-size: 14px;
+}
+
+.username {
+  font-size: 12px;
+  color: gray;
+}
